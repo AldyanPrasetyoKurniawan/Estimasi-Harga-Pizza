@@ -7,8 +7,8 @@ st.title('Estimasi Harga Pizza (Rp)')
 
 size = st.number_input('Small, Reguler, Medium, Large, XL, Jumbo (1, 2, 3, 4, 5, 6)')
 diameter = st.number_input('Diameter Pizza dalam Inch')
-extra_sauce = st.number_input('Tambahan Saus (yes = 1 dan no = 0')
-extra_cheesee = st.number_input('Tambahan Keju (yes = 1 dan no = 0')
+extra_sauce = st.number_input('Tambahan Saus (yes = 1 dan no = 0'))
+extra_cheesee = st.number_input('Tambahan Keju (yes = 1 dan no = 0'))
 
 predict = ''
 
